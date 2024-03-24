@@ -38,6 +38,7 @@
                     @endforelse
                 </tbody>
             </table>
+            {{ $trains->links() }}
         </div>
     </section>
 @endsection
